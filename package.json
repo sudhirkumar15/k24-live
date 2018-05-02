@@ -1,0 +1,19 @@
+{
+  "name": "k24-live",
+  "version": "1.0.0",
+  "description": "K24",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudhirkumar15/k24-live.git"
+  },
+  "author": "Sudhir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudhirkumar15/k24-live/issues"
+  },
+  "homepage": "https://github.com/sudhirkumar15/k24-live#readme"
+}
