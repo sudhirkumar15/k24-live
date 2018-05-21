@@ -1,9 +1,10 @@
 'use strict'
-const express = require('express'), router = express.Router();
+const express = require('express'), router = express.Router(),
+auth1 = require('../models/auth'), auth = new auth1();
+
 
 router.post('/', (req, res) => {
-	console.log(req.body);
-	req.app.get('core').auth.getAuth(req.body.fname)
+	auth.getAuth(req.body.fname)
 	.then(data => {
 		console.log(data);
 		res.send("hi");

@@ -1,6 +1,9 @@
 'use strict'
 
-module.exports = function(app, connection, config) {
+const connection = require('../config/connection');
+console.log(connection);
+
+module.exports = function() {
 	class auth {
 		/**
          * Getting authentication for user
@@ -52,6 +55,6 @@ module.exports = function(app, connection, config) {
 		}
 	}
 
-	return auth
+	return   auth;
 }
 
