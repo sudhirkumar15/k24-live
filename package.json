@@ -12,7 +12,7 @@
     "mysql": "^2.15.0"
   },
   "repository": {
-    "type": "git",
+    "type": "git"
     "url": "git+https://github.com/sudhirkumar15/k24-live.git"
   },
   "author": "Sudhir kumar",
