@@ -1,7 +1,7 @@
 'use strict'
 
 const connection = require('../config/connection');
-console.log(connection);
+import {connection} from '../config/connection';
 
 module.exports = function() {
 	class auth {

@@ -9,10 +9,11 @@
   "dependencies": {
     "express": "^4.16.3",
     "lodash": "^4.17.10",
+    "morgan": "^1.9.0",
     "mysql": "^2.15.0"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
     "url": "git+https://github.com/sudhirkumar15/k24-live.git"
   },
   "author": "Sudhir kumar",
@@ -20,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/sudhirkumar15/k24-live/issues"
   },
-  "homepage": "https://github.com/sudhirkumar15/k24-live#readme"
+  "homepage": "https://github.com/sudhirkumar15/k24-live#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "rimraf": "^2.6.2"
+  }
 }

@@ -1,7 +1,9 @@
 "use strict"
+
+import express from 'express';
+const app = express();
+
 const 
-express 	 = require("express"),
-app 		 = express(),
 bodyParser   = require('body-parser'),
 cfg 		 = require('./app/config')
 // core 		 = require('./app/models')
@@ -22,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //including configuration file
 app.set('cfg', cfg);
 
-const connection = require('./app/config/connection')(cfg);
+const connection = require('./app/config/connection');
 
 // app.set('core', core(app , cfg));
 app.use((req, res, next) => {
